@@ -117,6 +117,24 @@ header {
     background-color: #FFF; 
 }
 
+
+.btn.btn--primary {
+    color: #fff;
+    background-color: #ea9926;
+    border: none; 
+}
+
+.btn.btn--primary:hover {
+    background-color: #cc8823;
+}
+
+.btn.block {
+    width: 100%; 
+}
+
+
+
+
 img {
     display: block; 
 }
