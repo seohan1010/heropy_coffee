@@ -16,23 +16,6 @@ searchInputEl.addEventListener('blur',function(){
 });
 
 
-
-
-
-
-
-
-new Swiper('.awards .swiper',{
-    autoplay: true,
-    loop: true,
-    spaceBetween: 30,
-    slidesPerView: 5,
-    navigation: {
-        prevEl: '.awards .swiper-button-prev',
-        nextEl: '.awards .swiper-button-next'
-    }
-});
-
 console.log(new Date().getFullYear());
 const thisYear = document.querySelector('.this-year');
 thisYear.innerHTML = new Date().getFullYear();
